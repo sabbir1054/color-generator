@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+   background: #000;
+    height: 100vh;
+    text-align: center;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    stroke: black;
+    stroke-width: 5px;
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.form-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+#color-code {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+#generate-btn,#input-btn {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
